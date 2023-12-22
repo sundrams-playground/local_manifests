@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="playground"
+          fetch="https://github.com/sundrams-playground"
+          revision="udc" />
+
+  <remote name="los"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-21" />
+
+  <!-- device -->
+  <project path="device/samsung/m307f" name="device_samsung_m307f" remote="playground" />
+  <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="playground" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
+
+  <!-- kernel -->
+  <project path="kernel/samsung/m30s" name="sundrams-playground/kernel_samsung_m30s" remote="github" clone-depth="1" revision="13" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="moto-common/platform_prebuilts_clang_host_linux-x86_clang-r383902" remote="github" revision="master" />
+
+  <!-- vendor -->
+  <project path="vendor/samsung/m307f" name="vendor_samsung_m307f" remote="playground" clone-depth="1" />
+  <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="playground" clone-depth="1" />
+
+  <!-- hardware -->
+  <!-- <project path="hardware/samsung" name="android_hardware_samsung" remote="los" /> -->
+  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
+</manifest>
