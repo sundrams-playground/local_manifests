@@ -22,7 +22,7 @@
   <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="playground" clone-depth="1" />
 
   <!-- hardware -->
-  <!-- <project path="hardware/samsung" name="android_hardware_samsung" remote="los" /> -->
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
