@@ -14,7 +14,7 @@
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
 
   <!-- kernel -->
-  <project path="kernel/samsung/m30s" name="sundrams-playground/kernel_samsung_m30s" remote="github" clone-depth="1" revision="13" />
+  <project path="kernel/samsung/m30s" name="Meghthedev/android_kernel_samsung_m30s" remote="github" clone-depth="1" revision="13" />
   <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="moto-common/platform_prebuilts_clang_host_linux-x86_clang-r383902" remote="github" revision="master" />
 
   <!-- vendor -->
@@ -26,10 +26,10 @@
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="los" />
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="los" />
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" />
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="los" />
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="los" />
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" />
+  <project path="hardware/samsung_slsi-linaro/config" name="sundrams-playground/android_hardware_samsung_slsi-linaro" remote="github" revision="config" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="sundrams-playground/android_hardware_samsung_slsi-linaro" remote="github" revision="exynos" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="sundrams-playground/android_hardware_samsung_slsi-linaro" remote="github" revision="exynos5" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="sundrams-playground/android_hardware_samsung_slsi-linaro" remote="github" revision="graphics" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="sundrams-playground/android_hardware_samsung_slsi-linaro" remote="github" revision="openmax" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="sundrams-playground/android_hardware_samsung_slsi-linaro" remote="github" revision="interfaces" />
 </manifest>
