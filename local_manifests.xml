@@ -28,6 +28,7 @@
 
   <!-- vendor -->
   <project path="vendor/samsung/m307f" name="vendor_samsung_m307f" remote="playground" clone-depth="1" />
+  <project path="vendor/samsung/m307fn" name="android_vendor_samsung_m307fn" remote="playground" clone-depth="1" />  
   <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="test" clone-depth="1" />
 
   <!-- hardware -->
