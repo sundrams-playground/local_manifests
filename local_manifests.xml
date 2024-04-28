@@ -15,6 +15,7 @@
   
   <!-- device -->
   <project path="device/samsung/m307f" name="device_samsung_m307f" remote="playground" />
+  <project path="device/samsung/m307fn" name="device_samsung_m307fn" remote="playground" />
   <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="test" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
 
@@ -24,6 +25,7 @@
 
   <!-- vendor -->
   <project path="vendor/samsung/m307f" name="vendor_samsung_m307f" remote="playground" clone-depth="1" />
+  <project path="vendor/samsung/m307fn" name="vendor_samsung_m307fn" remote="playground" clone-depth="1" />
   <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="test" clone-depth="1" />
 
   <!-- others -->
