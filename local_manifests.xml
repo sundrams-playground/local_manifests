@@ -12,6 +12,7 @@
           fetch="https://github.com/sundrams-playground"
           revision="test" />
   
+  
   <!-- device -->
   <project path="device/samsung/m307f" name="device_samsung_m307f" remote="playground" />
   <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="test" />
@@ -24,6 +25,9 @@
   <!-- vendor -->
   <project path="vendor/samsung/m307f" name="vendor_samsung_m307f" remote="playground" clone-depth="1" />
   <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="test" clone-depth="1" />
+
+  <!-- others -->
+  <project path="hardware/samsung-ext/interfaces" name="Roynas-Android-Playground/hardware_samsung-extra_interfaces" remote="github" revision="lineage-21" clone-depth="1" />
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
