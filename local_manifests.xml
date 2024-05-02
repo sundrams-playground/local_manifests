@@ -7,16 +7,11 @@
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="lineage-21" />
-
-  <remote name="test"
-          fetch="https://github.com/sundrams-playground"
-          revision="test" />
-  
   
   <!-- device -->
   <project path="device/samsung/m307f" name="device_samsung_m307f" remote="playground" />
   <project path="device/samsung/m307fn" name="device_samsung_m307fn" remote="playground" />
-  <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="test" />
+  <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="playground" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
 
   <!-- kernel -->
