@@ -28,7 +28,7 @@
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="linux4-bringup-priv" />
-  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
+  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linux4-bringup-priv" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="linux4-bringup-priv" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="linux4-bringup-priv" />
 </manifest>
