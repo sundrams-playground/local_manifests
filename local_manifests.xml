@@ -6,7 +6,7 @@
   
   <remote name="wip"
           fetch="https://github.com/sundrams-playground"
-          revision="wip" />
+          revision="hos" />
   
   <remote name="los"
           fetch="https://github.com/LineageOS"
