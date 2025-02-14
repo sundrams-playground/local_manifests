@@ -9,7 +9,7 @@
     
   <remote name="los"
           fetch="https://github.com/LineageOS"
-          revision="lineage-22" />
+          revision="lineage-22.1" />
   
   <!-- device -->
   <project path="device/samsung/m307f" name="device_samsung_m307f" remote="playground" />
