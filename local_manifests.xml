@@ -12,11 +12,11 @@
           revision="lineage-22.1" />
   
   <!-- device -->
-  <project path="device/samsung/m30s-common" name="device_samsung_m30s" remote="playground" />
+  <project path="device/samsung/m30s" name="device_samsung_m30s" remote="playground" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="playground" />
 
   <!-- vendor -->
-  <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s" remote="playground" clone-depth="1" />
+  <project path="vendor/samsung/m30s" name="vendor_samsung_m30s" remote="playground" clone-depth="1" />
 
   <!-- remove -->
  <remove-project name="device/google/caimito" />
