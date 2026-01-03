@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github"
-          fetch="https://github.com" />
-  
   <remote name="playground"
           fetch="https://github.com/sundrams-playground"
-          revision="Veronica" />
+          revision="16" />
     
   <remote name="los"
           fetch="https://github.com/LineageOS"
@@ -18,12 +15,6 @@
   <!-- vendor -->
   <project path="vendor/samsung/m30s" name="vendor_samsung_m30s" remote="playground" clone-depth="1" />
 
-  <!-- remove -->
- <remove-project name="device/google/caimito" />
- <remove-project name="device/google/comet" />
- <remove-project name="device/google/zumapro" />
-
-  
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="playground" />
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linux4-bringup-priv" />
