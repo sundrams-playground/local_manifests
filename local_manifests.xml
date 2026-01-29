@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="playground"
+  <remote name="pg"
           fetch="https://github.com/sundrams-playground"
-          revision="16" />
-    
-  <remote name="los"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-22.1" />
-  
-  <!-- device -->
-  <project path="device/samsung/m30s" name="device_samsung_m30s" remote="playground" />
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="playground" />
-
-  <!-- vendor -->
-  <project path="vendor/samsung/m30s" name="vendor_samsung_m30s" remote="playground" clone-depth="1" />
-
-  <!-- hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="linux4-bringup-priv" />
-  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linux4-bringup-priv" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="Roynas-Android-Playground/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" revision="lineage-22" clone-depth="1" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="linux4-bringup-priv" />
+          revision="pb" />
+        
+        <project path="device/xiaomi/bouquet" name="platform_device_xiaomi_bouquet" remote="rna" />
+        <project path="kernel/xiaomi/bouquet" name="kernel_xiaomi_bouquet" remote="rna" />
+        <project path="device/xiaomi/bouquet-sepolicy" name="platform_device_xiaomi_bouquet-sepolicy" remote="rna" />
+        <project path="vendor/xiaomi" name="platform_vendor_xiaomi" remote="rna" revision="pb" />
+        <project path="hardware/qcom/sdm660/display" name="platform_hardware_qcom_display" remote="rna" />
+        <project path="hardware/qcom/sdm660/audio" name="platform_hardware_qcom_audio" remote="rna" />
+        <project path="hardware/qcom/sdm660/media" name="platform_hardware_qcom_media" remote="rna" />
 </manifest>
