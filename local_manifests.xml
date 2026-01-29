@@ -4,18 +4,18 @@
           fetch="https://github.com/sundrams-playground"
           revision="udc" />
   
-  <remote name="wip"
+  <remote name="pb"
           fetch="https://github.com/sundrams-playground"
-          revision="hos" />
+          revision="pb" />
   
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="lineage-21" />
   
   <!-- device -->
-  <project path="device/samsung/m307f" name="device_samsung_m307f" remote="wip" />
+  <project path="device/samsung/m307f" name="device_samsung_m307f" remote="pb" />
   <project path="device/samsung/m307fn" name="device_samsung_m307fn" remote="playground" />
-  <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="wip" />
+  <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="pb" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="playground" />
 
   <!-- kernel -->
@@ -23,12 +23,9 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="moto-common/platform_prebuilts_clang_host_linux-x86_clang-r383902" remote="github" revision="master" />
 
   <!-- vendor -->
-  <project path="vendor/samsung/m307f" name="vendor_samsung_m307f" remote="wip" clone-depth="1" />
+  <project path="vendor/samsung/m307f" name="vendor_samsung_m307f" remote="playground" clone-depth="1" />
   <project path="vendor/samsung/m307fn" name="vendor_samsung_m307fn" remote="playground" clone-depth="1" />
-  <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="wip" clone-depth="1" />
-
-  <!-- others -->
-  <project path="hardware/samsung-ext/interfaces" name="Roynas-Android-Playground/hardware_samsung-extra_interfaces" remote="github" revision="lineage-21" clone-depth="1" />
+  <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="playground" clone-depth="1" />
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="playground" />
